@@ -125,6 +125,11 @@ strong{
 .first-content{
     padding-left: 30px;
 }
+.first-content h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
 .first-content a{
     color: #031cff;
     text-decoration: none;
@@ -133,15 +138,6 @@ strong{
 }
 .first-content a:hover{
     color: rgb(255, 102, 0);
-}
-#about h2{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: left;
-    padding-left: 20px;
-}
-#about a{
-    text-decoration: none;
 }
 #services{
     display: flex;
@@ -190,8 +186,17 @@ ol span{
 .image-container a{
     color: #031cff;
     text-decoration: none;
-    transition: 4.5s;
     font-size:small;
+}
+.image-container p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contacts h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
 }
 .image-container a:hover{
     color: rgb(255, 102, 0);
