@@ -163,11 +163,9 @@ strong{
     padding-left: 50px;
 }
 .eagle-content img{
-    border-radius: 1%
-    
-    ;
-    /* width: 340%;*/
-    height: auto; 
+    border-radius: 1%;
+    max-width: 60%;
+    max-height: 250px; 
 }
 span{
     font-size:30px;
@@ -209,11 +207,23 @@ ol span{
 .footer-content p{
     padding: 5px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 10px;
+    max-width:fit-content;
+    max-height: 100%;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap; */
 }
 .footer-content a{
     color: rgb(255, 0, 0);
     transition: 0.4s;
     font-size: small;
     text-decoration: none;
+}
+@media screen {
+    
+    body {
+        background-color: #f8f8f8;
+    }
 }
